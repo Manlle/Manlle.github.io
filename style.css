@@ -8,10 +8,11 @@ body{
 	top: 0;
 	right: 0;
 	left: 0;
-	height: 90px;
+	height: 60px;
 	background: black;
 	padding-right: 301px;
 	padding-left: 301px;
+	padding-top: 30px;
 }
 .hat table{
 	width: 100%;
@@ -151,7 +152,7 @@ body{
 	background: green;
 }
 .authon{
-	padding:50px 100px 50px 100px; 	
+	padding:50px 300px 50px 300px; 	
 }
 .authon img {
 	display: block;
@@ -165,34 +166,23 @@ body{
 .authon p {
 	text-align: justify;
 	font-size: 22px;
-	width: 100%;
-	margin-left: 30px; 
+	width: 100%; 
 }
 .authon h1{
 	margin: auto;
 	text-align: center;
 	font-size: 50px;
 }
-.fakts h2{
-	margin: auto;
-	text-align: center;
-	font-size: 50px;
-	padding: 50px 100px 50px 100px;
-
-}
-.fakts ul{
-	font-size: 30px;
-	margin-left:30px;
-
-}
 .footer{
 	background:black;
+	color: white;
+	text-align: center;
 	padding: 50px 0px 50px 0px;
+	line-height: 30px;
 }
 
 .footer a{
 	color: white;
-	text-decoration: none;
 	font-size:21px;
 }
 .theory_mobs{
@@ -201,17 +191,25 @@ body{
 	color:white;
 	background: green;
 }
-.info, .good, .bad, .termin{
+.info, .good, .bad, .termin, .fakts{
 	padding: 50px 300px 20px 300px;
 	font-size: 25px;
 	color:black;
 	background: white;
 }
-.info_ul, .good_ul, .bad p, .termin p{
+.info_ul, .good_ul, .bad p, .termin p, .fakts ul{
 	text-align: justify;
 	font-size: 22px;
 }
-.info h2, .good h2, .bad h2{
+.info h2, .good h2, .bad h2, .fakts h2{
 	text-align: center;
 	font-size: 38px;
 } 
+.bad img{
+	float: left;
+	height: 250px;
+	margin-right: 100px;
+}
+.bad_box{
+	display: flex;
+}
