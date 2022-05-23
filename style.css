@@ -1,0 +1,217 @@
+body{
+	margin:0;
+	
+
+}
+.hat{
+	position: sticky;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 90px;
+	background: black;
+	padding-right: 301px;
+	padding-left: 301px;
+}
+.hat table{
+	width: 100%;
+}
+.hat td{
+	color: white;
+	font-size: 19px;
+	width: 50%;
+	font-family: sans-serif;
+}
+.hat a {
+	color: white;
+	text-decoration: none;
+	margin-left: 20px;
+	font-family: sans-serif;
+}
+.hat a:hover{
+	color: lightgreen;
+}
+.right {
+	text-align: right;
+}
+
+
+.header{
+	position: sticky;
+	right: 0;
+	top: 90px;
+	left: 0;
+	background: green;
+	padding-right: 301px;
+	padding-left: 301px;
+	box-shadow: 0 0 15px black;
+}
+.header table{
+			width: 100%;
+}
+.header td{
+	color: white;
+	font-size: 29px;
+	width: 50%;
+	font-family: sans-serif;
+}
+.header a {
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+	margin-left: 25px;
+	font-family: sans-serif;
+}
+.prev {
+	padding: 150px 300px;
+	background: green;
+	background: url(prev_bg.jpg);
+	background-size: 100%;
+	background-attachment: fixed;
+	background-position: 50% 100%;
+}
+.prev h1 {
+	font-size: 50px;
+	font-family: sans-serif;
+	font-weight: 700;
+	color: white;
+	margin-bottom: 5px;
+
+
+}
+.prev p{
+	font-size: 22px;
+	margin-top: 5px;
+	color: white;
+
+
+}
+.prev a{
+	color: black;
+	text-decoration: none;
+	font-size: 24px;
+	background: white;
+	border: 2px solid black;
+	padding: 5px 20px;
+	font-family: sans-serif; 
+	border-radius: 10px;
+	transition: 1s;
+}
+.prev a:hover{
+	background: black;
+	color: white;
+}
+.cotygory{
+	padding: 50px 300px;
+	background: lightgrey;
+	display: flex;
+	justify-content: space-between;
+
+}
+.cotygory .box{
+	background: white;
+	height: 400px;
+	width: 300px;
+	text-align: center;	
+}
+.box h2{
+	background: green;
+	text-align: center;
+	font-size:40px;
+	color: white;
+	margin-top:  0px;
+
+}
+.box img{
+	height: 100px;
+}
+.box p{
+	padding-left: 30px;
+	padding-right: 	30px;
+	font-size: 22px; 	;
+
+}
+.box a{
+		font-size: 22px;	
+		color: green;
+		background: white;
+		border-radius: 20px;
+		border:2px solid green;
+		padding: 5px 20px;
+		text-decoration: none;
+		display: block;
+		width: 60%;
+		margin: auto;
+		margin-top: 50px;
+		transition: 1s;
+
+}
+.box a:hover{
+	color: white;
+	background: green;
+}
+.authon{
+	padding:50px 100px 50px 100px; 	
+}
+.authon img {
+	display: block;
+	margin: auto;
+	width: 40%;
+	float: left;
+	margin-right: 30px;	
+
+
+}
+.authon p {
+	text-align: justify;
+	font-size: 22px;
+	width: 100%;
+	margin-left: 30px; 
+}
+.authon h1{
+	margin: auto;
+	text-align: center;
+	font-size: 50px;
+}
+.fakts h2{
+	margin: auto;
+	text-align: center;
+	font-size: 50px;
+	padding: 50px 100px 50px 100px;
+
+}
+.fakts ul{
+	font-size: 30px;
+	margin-left:30px;
+
+}
+.footer{
+	background:black;
+	padding: 50px 0px 50px 0px;
+}
+
+.footer a{
+	color: white;
+	text-decoration: none;
+	font-size:21px;
+}
+.theory_mobs{
+	padding: 50px 400px;
+	font-size: 25px;
+	color:white;
+	background: green;
+}
+.info, .good, .bad, .termin{
+	padding: 50px 300px 20px 300px;
+	font-size: 25px;
+	color:black;
+	background: white;
+}
+.info_ul, .good_ul, .bad p, .termin p{
+	text-align: justify;
+	font-size: 22px;
+}
+.info h2, .good h2, .bad h2{
+	text-align: center;
+	font-size: 38px;
+} 
